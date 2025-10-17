@@ -1,0 +1,347 @@
+@prefix : <http://webprotege.stanford.edu/project/GgNvJ94cfga2BsSxt76Eu#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://webprotege.stanford.edu/project/GgNvJ94cfga2BsSxt76Eu> .
+
+<http://webprotege.stanford.edu/project/GgNvJ94cfga2BsSxt76Eu> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dsse.at/ontologies/cybersecurity/R1kUFMpVXLCEpRJv0kSA5Q
+<http://dsse.at/ontologies/cybersecurity/R1kUFMpVXLCEpRJv0kSA5Q> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                 rdfs:domain <http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK> ;
+                                                                 rdfs:range <http://dsse.at/ontologies/cybersecurity/R8vUIJE96K4XGEGXT9gszt> ,
+                                                                            <http://dsse.at/ontologies/cybersecurity/RpK1ubvW2xzcNjUF0sNc4A> ;
+                                                                 rdfs:label "emerging from"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "The relation \"emerging from\" indicates, that the undesirable existence of the target element of this relation has come up, because of some structural or behavioral properties of the source element."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "emerging from"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R72VvJMzU59ntrAUr77tI4f
+<http://dsse.at/ontologies/cybersecurity/R72VvJMzU59ntrAUr77tI4f> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <http://dsse.at/ontologies/cybersecurity/R7JnUGzJd17Yh3zC6SRvtQ7> ,
+                                                                              <http://dsse.at/ontologies/cybersecurity/RRRjghXsD2wkElnJf74Fkd> ,
+                                                                              <http://dsse.at/ontologies/cybersecurity/RyoTgp51RNeL1U9DasGkvH> ;
+                                                                  rdfs:range <http://dsse.at/ontologies/cybersecurity/RpK1ubvW2xzcNjUF0sNc4A> ;
+                                                                  rdfs:label "influences"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "The relation \"influences\" indicates, that the element at the source of this relation is designed to modify the behavior of the target element."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "influences"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R72dd5t6zbRJBZPoYtzj7zU
+<http://dsse.at/ontologies/cybersecurity/R72dd5t6zbRJBZPoYtzj7zU> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <http://dsse.at/ontologies/cybersecurity/RDuXy3V0v36vexJi1J14uLb> ;
+                                                                  rdfs:range <http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK> ;
+                                                                  rdfs:label "exposed to"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "The relation \"exposed to\" indicates, that the element at the source of this relation is potentially negatively influenced by the target element. This is because the target element has one or more direct ways of correspondence to the source element."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "exposed to"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R9jf1a9cmWcvCaPB3SHIADV
+<http://dsse.at/ontologies/cybersecurity/R9jf1a9cmWcvCaPB3SHIADV> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <http://dsse.at/ontologies/cybersecurity/R7RCsAtX7WJsqGJfh9Sl3I> ;
+                                                                  rdfs:range <http://dsse.at/ontologies/cybersecurity/R8WXLXb8L3HjSOLEz1lDSbx> ;
+                                                                  rdfs:label "part of"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "The relation \"part of\" states that the element at the source of this relation is a constituent or component that contributes to the existence or completeness of the element at the target of the relation. This meaning does not have to be related to a structural context between both elements."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "part of"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R9wcRAGp3cc9wCSEG0k0NRC
+<http://dsse.at/ontologies/cybersecurity/R9wcRAGp3cc9wCSEG0k0NRC> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <http://dsse.at/ontologies/cybersecurity/R8fmAefrRr0peqhIY1bFy7G> ;
+                                                                  rdfs:range <http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK> ;
+                                                                  rdfs:label "observe"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "The relation \"observe\" indicates, that the element at the source of this relation depends from one or more tasks in the context to measure parameters related to the target element."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "observe"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RBQ2nTYma4itRR4L7JAwKqG
+<http://dsse.at/ontologies/cybersecurity/RBQ2nTYma4itRR4L7JAwKqG> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK> ;
+                                                                  rdfs:range <http://dsse.at/ontologies/cybersecurity/RpK1ubvW2xzcNjUF0sNc4A> ;
+                                                                  rdfs:label "handled in"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "The relation \"handled in\" indicates, that the negative influence of the element at the source of this relation is to be considered at special focus in or at the target element."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "handled in"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RBbpd0P1L96tahVxetGHuUQ
+<http://dsse.at/ontologies/cybersecurity/RBbpd0P1L96tahVxetGHuUQ> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK> ;
+                                                                  rdfs:range <http://dsse.at/ontologies/cybersecurity/R7JnUGzJd17Yh3zC6SRvtQ7> ,
+                                                                             <http://dsse.at/ontologies/cybersecurity/RByE9tHnSgDjpyNI2goty4T> ,
+                                                                             <http://dsse.at/ontologies/cybersecurity/RRRjghXsD2wkElnJf74Fkd> ,
+                                                                             <http://dsse.at/ontologies/cybersecurity/RyoTgp51RNeL1U9DasGkvH> ;
+                                                                  rdfs:label "treated with"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "The relation \"treated with\" indicates, that the target element tries to either explicitly accept or compensate one or more disadvantages of the source element."^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RBqVh0PGo17iAn2Hy7nDnus
+<http://dsse.at/ontologies/cybersecurity/RBqVh0PGo17iAn2Hy7nDnus> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <http://dsse.at/ontologies/cybersecurity/R80nHqiavsDyCEy5ex8dore> ,
+                                                                              <http://dsse.at/ontologies/cybersecurity/R9dVqSGKdQ2wlh1PYuN7hwC> ,
+                                                                              <http://dsse.at/ontologies/cybersecurity/R9uBSD7avLDM7x44h5YKxmN> ,
+                                                                              <http://dsse.at/ontologies/cybersecurity/RVMVGtNsbXVQDx7demveIz> ;
+                                                                  rdfs:range <http://dsse.at/ontologies/cybersecurity/R8vUIJE96K4XGEGXT9gszt> ,
+                                                                             <http://dsse.at/ontologies/cybersecurity/RpK1ubvW2xzcNjUF0sNc4A> ;
+                                                                  rdfs:label "involved in"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "The relation \"involved in\" indicates, that the element at the source of this relation performs some action or passively participates in or at the target element."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "involved in"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RCtxtZ4kuG1Wox04NUypmzo
+<http://dsse.at/ontologies/cybersecurity/RCtxtZ4kuG1Wox04NUypmzo> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                  rdfs:domain <http://dsse.at/ontologies/cybersecurity/RMu0zeUvwTCSOBsfZEUXTy> ;
+                                                                  rdfs:range <http://dsse.at/ontologies/cybersecurity/RDuXy3V0v36vexJi1J14uLb> ;
+                                                                  rdfs:label "embrace"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "The relation \"embrace\" indicates, that the element at the target of this relation is a part of the element at the source in an abstracted way. So the source element needs for example the target element as a property to ensure the desired way of functioning."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "embrace"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RNPYFY00XhZGHNUJ8BbW26
+<http://dsse.at/ontologies/cybersecurity/RNPYFY00XhZGHNUJ8BbW26> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                 rdfs:domain <http://dsse.at/ontologies/cybersecurity/RMu0zeUvwTCSOBsfZEUXTy> ;
+                                                                 rdfs:range <http://dsse.at/ontologies/cybersecurity/R8fmAefrRr0peqhIY1bFy7G> ;
+                                                                 rdfs:label "fulfill"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "The relation \"fulfill\" in the context of the Cybersecurity DSL expresses that a TOE is dependent from and must comply to prescribed Cybersecurity Requirements. To fulfill a Cybersecurity Requirement, one or many TOEs may need to implement security mechanisms to fulfill the requirement."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "fulfill"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RPYhWiN91Tf7ghfZp0EnJv
+<http://dsse.at/ontologies/cybersecurity/RPYhWiN91Tf7ghfZp0EnJv> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                 rdfs:domain <http://dsse.at/ontologies/cybersecurity/R8fmAefrRr0peqhIY1bFy7G> ;
+                                                                 rdfs:range <http://dsse.at/ontologies/cybersecurity/R8fmAefrRr0peqhIY1bFy7G> ;
+                                                                 rdfs:label "refine"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "The relation \"refine\" indicates, that the element at the target of this relation was created to specify, decompose and define in more detail the usually less strictly defined source element and its parameters. This procedure can involve the task to identify and determine measurable parameters used to prove or disprove that some goals are reached."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "refine"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RTKVPsfeCSXxdzel3jBDk2
+<http://dsse.at/ontologies/cybersecurity/RTKVPsfeCSXxdzel3jBDk2> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                 rdfs:domain <http://dsse.at/ontologies/cybersecurity/R7JnUGzJd17Yh3zC6SRvtQ7> ,
+                                                                             <http://dsse.at/ontologies/cybersecurity/RRRjghXsD2wkElnJf74Fkd> ,
+                                                                             <http://dsse.at/ontologies/cybersecurity/RyoTgp51RNeL1U9DasGkvH> ;
+                                                                 rdfs:range <http://dsse.at/ontologies/cybersecurity/RVMVGtNsbXVQDx7demveIz> ;
+                                                                 rdfs:label "targets"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "The relation \"targets\" indicates, that the element at the source of this relation aims to compensate some negative aspect of the target element, which badly influences the system or a part of it."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "targets"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RiSK6T84EfqvWdDp5R9wEG
+<http://dsse.at/ontologies/cybersecurity/RiSK6T84EfqvWdDp5R9wEG> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                 rdfs:domain <http://dsse.at/ontologies/cybersecurity/RDuXy3V0v36vexJi1J14uLb> ;
+                                                                 rdfs:range <http://dsse.at/ontologies/cybersecurity/R8vUIJE96K4XGEGXT9gszt> ,
+                                                                            <http://dsse.at/ontologies/cybersecurity/RpK1ubvW2xzcNjUF0sNc4A> ;
+                                                                 rdfs:label "compromised by"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "The relation \"compromised by\" indicates, that the element at the target of this relation has the possibility to harm some features of the element positioned at the source of this connector."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "compromised by"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RvRMR14Yt5OlRZ49dvjFN7
+<http://dsse.at/ontologies/cybersecurity/RvRMR14Yt5OlRZ49dvjFN7> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                 rdfs:domain <http://dsse.at/ontologies/cybersecurity/R8vUIJE96K4XGEGXT9gszt> ,
+                                                                             <http://dsse.at/ontologies/cybersecurity/RpK1ubvW2xzcNjUF0sNc4A> ;
+                                                                 rdfs:range <http://dsse.at/ontologies/cybersecurity/R8WXLXb8L3HjSOLEz1lDSbx> ;
+                                                                 rdfs:label "leads to"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "The relation \"leads to\" indicates, that the element at the source of this relation is the reason why the element at the target of the relation comes into existence."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "leads to"^^xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dsse.at/ontologies/cybersecurity/R7JnUGzJd17Yh3zC6SRvtQ7
+<http://dsse.at/ontologies/cybersecurity/R7JnUGzJd17Yh3zC6SRvtQ7> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C> ;
+                                                                  rdfs:label "Risk Transfer"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "\"Risk Transfer\" involves shifting the financial burden of a risk to another party (at business level) or other system components. This approach aims to protect systems assets by passing on the responsibility for potential losses to an external entity like an insurance or other system components which produce thereby a lower risk."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Risk Transfer"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R7RCsAtX7WJsqGJfh9Sl3I
+<http://dsse.at/ontologies/cybersecurity/R7RCsAtX7WJsqGJfh9Sl3I> rdf:type owl:Class ;
+                                                                 rdfs:label "Damage"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "\"Damage\" refers to the harm that can happen either to the system itself or to the people who own or use the system. It's like the negative impact or bad things that can happen when there's a cybersecurity issue. This harm could include things like the system not working properly, data getting lost, manipulated or stolen, or even harm to the people using the system."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Damage"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R7h71zFXf6XflF1QwO1D8zK
+<http://dsse.at/ontologies/cybersecurity/R7h71zFXf6XflF1QwO1D8zK> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf owl:Thing ;
+                                                                  rdfs:label "Threat Scenario"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "According to ISO 21434, a \"Threat Scenario\" is a detailed description of a potential cybersecurity incident, including the threat actor, the vulnerability being exploited, the attack technique, and the potential impact. Threat scenarios are used as the basis for cybersecurity risk assessment and mitigation activities."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Threat Scenario"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R80nHqiavsDyCEy5ex8dore
+<http://dsse.at/ontologies/cybersecurity/R80nHqiavsDyCEy5ex8dore> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/R9dVqSGKdQ2wlh1PYuN7hwC> ;
+                                                                  rdfs:label "Hazard"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> """A \"Hazard\" is a type of Threat Agent, which is not itself considered as an individual or a group of persons. Environmental impact factors (weather, car accident, corrosion) are typical hazards. Other examples may be faulty software or insufficiently approved physical components.
+In contrast to a Threat Actor, a Hazard does not have the intrinsic intention to sabotage the system or gain personal advantages by system abuse."""^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Hazard"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R8WXLXb8L3HjSOLEz1lDSbx
+<http://dsse.at/ontologies/cybersecurity/R8WXLXb8L3HjSOLEz1lDSbx> rdf:type owl:Class ;
+                                                                  rdfs:label "Damage Scenario"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> """A \"Damage Scenario\" contains the chain of action of negative impacts of one or more Threat Scenarios, that lead to some damage of the system or its components.
+Analytic procedures like FMEA (Failure Mode and Effects Analysis) can be applied to this part of the Impact Analysis to methodologically analyze possible system failures."""^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Damage Scenario"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK
+<http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <http://dsse.at/ontologies/cybersecurity/RBbpd0P1L96tahVxetGHuUQ> ;
+                                                                                    owl:someValuesFrom <http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz>
+                                                                                  ] ;
+                                                                  rdfs:label "Risk"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> """A (cybersecurity) \"Risk\" is defined in ISO 21434 as the potential for a cybersecurity incident to occur, which may lead to failures and damages on the system and its environment.
+Its importance to implement countermeasures is assessed by multiplying the likelihood and the damage potential of that incident."""^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Risk"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R8fmAefrRr0peqhIY1bFy7G
+<http://dsse.at/ontologies/cybersecurity/R8fmAefrRr0peqhIY1bFy7G> rdf:type owl:Class ;
+                                                                  rdfs:label "Cybersecurity Requirement"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> """A \"Cybersecurity Requirement\" represents a specific, actionable statement that translate one or more high-level cybersecurity goals into practical directives. It serves as concrete guideline for the implementation of countermeasures to handle related Risks.
+
+Cybersecurity goals, as defined by ISO/SAE 21434, represent high-level statements that outline the desired security outcomes for an automotive system or component. They are formulated during the early stages of product development, typically as a result of the Threat and Risk Assessment (TARA) process. Cybersecurity goals serve as guiding principles for the implementation of security controls and countermeasures throughout the development lifecycle.
+
+Therefor, a cybersecurity requirement is a measurable need, or capability that must be satisfied by a system, or system element to ensure its overall intact security. In contrast to a cybersecurity goal it must follow the 4C-rule of requirements (Complete, Correct, Concise, Confirmable)."""^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Cybersecurity Requirement"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R8vUIJE96K4XGEGXT9gszt
+<http://dsse.at/ontologies/cybersecurity/R8vUIJE96K4XGEGXT9gszt> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/R7h71zFXf6XflF1QwO1D8zK> ;
+                                                                 rdfs:label "Uncontrolled Threat Scenario"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "An \"Uncontrolled Threat Scenario\" is based on a Threat Scenario. It is the initial Threat Scenario for conducting the Threat Analysis, used to identify vulnerabilities and depict emerging risks."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Uncontrolled Threat Scenario"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R9dVqSGKdQ2wlh1PYuN7hwC
+<http://dsse.at/ontologies/cybersecurity/R9dVqSGKdQ2wlh1PYuN7hwC> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf owl:Thing ;
+                                                                  rdfs:label "Threat Agent"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> """A \"Threat Agent\" represents a combination of intentional exploitation and methodical vulnerability targeting, or a situation and method that might accidentally trigger a vulnerability. It encompasses entities with both the capability and potentially the motivation to cause harm to a system.
+It involves individuals or factors that can either deliberately exploit weaknesses or unknowingly activate vulnerabilities. This concept captures the dual nature of deliberate harm and unintentional actions, posing a comprehensive risk to the security of a system or its components."""^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Threat Agent"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/R9uBSD7avLDM7x44h5YKxmN
+<http://dsse.at/ontologies/cybersecurity/R9uBSD7avLDM7x44h5YKxmN> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/R9dVqSGKdQ2wlh1PYuN7hwC> ;
+                                                                  rdfs:label "Threat Actor"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "A \"Threat Actor\" can be internal or external to the organization, and may have a variety of motivations for attacking, such as financial gain, data theft, or simply causing damage"^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Threat Actor"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RByE9tHnSgDjpyNI2goty4T
+<http://dsse.at/ontologies/cybersecurity/RByE9tHnSgDjpyNI2goty4T> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz> ;
+                                                                  rdfs:label "Risk Acceptance"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> "\"Risk Acceptance\" is not a Countermeasure but is a valid Risk Treatment Decision. It involves acknowledging a specific risk without actively attempting to alter its likelihood or impact. Organizations consciously decide to tolerate the potential consequences, often when the cost of implementing Countermeasures outweighs the expected loss."^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Risk Acceptance"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz
+<http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz> rdf:type owl:Class ;
+                                                                  rdfs:label "Risk Treatment Decision"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> """A \"Risk Treatment Decision\" is the process of figuring out how to deal with a specific risk. NIST SP 800-30 defines it as the initial decision in the process of selecting and implementing measures to control or accept a Risk.
+The Risk Treatment Decision is in reality at the one side influenced by the risk and on the other side on financial matters. 
+The question to be asked here should be: \"How much money, human resources and time is reasonable to be invested for a countermeasure reducing this risk?\""""^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Risk Treatment Decision"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RDuXy3V0v36vexJi1J14uLb
+<http://dsse.at/ontologies/cybersecurity/RDuXy3V0v36vexJi1J14uLb> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf owl:Thing ;
+                                                                  rdfs:label "Cybersecurity Asset"@en ;
+                                                                  <http://www.w3.org/2004/02/skos/core#definition> """A \"Cybersecurity Asset\" represents an abstracted feature or functionality that is inherently part of a TOE, which needs to be protected by security measures to keep the TOE working as intended.
+This element strongly relates to the \"cybersecurity property\" in ISO 21434, which is generally defined as an attribute that can be worth protecting. Its impact on systems health can be rated via the CIA triad (confidentiality, integrity, availability)."""^^xsd:string ;
+                                                                  <http://www.w3.org/2004/02/skos/core#prefLabel> "Cybersecurity Asset"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C
+<http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz> ;
+                                                                 rdfs:label "Countermeasure"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> """A \"Countermeasure\" is a Risk Treatment Decision, which evolves the need to change something in the existing system.
+This countermeasure (same meaning as a control in ISO 21434) is based on a Risk Treatment Decision to target and modify the impact of a system vulnerability in a prophylactic manner. The intent is to influence thereby a Threat Scenario, which should lead to a reduction of one or more Risks."""^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Countermeasure"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RMu0zeUvwTCSOBsfZEUXTy
+<http://dsse.at/ontologies/cybersecurity/RMu0zeUvwTCSOBsfZEUXTy> rdf:type owl:Class ;
+                                                                 rdfs:label "Target Of Evaluation"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> """The \"Target of Evaluation\" (TOE) serves a as the entry point for conducting Cybersecurity Analysis. It is strongly related to a single technical component (physical or software) of a system architecture model.
+The TOE itself has to fulfill prescribed Cybersecurity Requirements.
+Furthermore, progressing further in Cybersecurity Analysis, a TOE embraces on or more Cybersecurity Assets that have their working integrity protected to enable a normal functioning of the TOE."""^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Target Of Evaluation"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RRRjghXsD2wkElnJf74Fkd
+<http://dsse.at/ontologies/cybersecurity/RRRjghXsD2wkElnJf74Fkd> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C> ;
+                                                                 rdfs:label "Risk Elimination"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "\"Risk Elimination\" is the strategic choice to circumvent exposure to a particular risk altogether. Organizations steer clear of activities or situations that could lead to the identified risk, aiming to prevent potential harm or adverse outcomes."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Risk Elimination"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RVMVGtNsbXVQDx7demveIz
+<http://dsse.at/ontologies/cybersecurity/RVMVGtNsbXVQDx7demveIz> rdf:type owl:Class ;
+                                                                 rdfs:label "Vulnerability"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "\"Vulnerability\" in a system refers to a weakness or flaw that could be exploited by attackers to compromise the security of the system. It's like a gap or a soft spot in the system's defenses that, if not addressed, could allow unauthorized access, data breaches, or other malicious activities. Identifying vulnerabilities is crucial for cybersecurity because it helps in understanding where the system might be at risk."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Vulnerability"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RpK1ubvW2xzcNjUF0sNc4A
+<http://dsse.at/ontologies/cybersecurity/RpK1ubvW2xzcNjUF0sNc4A> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/R7h71zFXf6XflF1QwO1D8zK> ;
+                                                                 rdfs:label "Controlled Threat Scenario"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "A \"Controlled Threat Scenario\" is based on a Threat Scenario. It is a modified version of the initially existing Uncontrolled Threat Scenario, that was used to identify vulnerabilities and depict emerging risks. The Controlled Threat Scenario is therefore heavily influenced by applied Countermeasures and depicts how the treatment of vulnerabilities can help to reduce one or more Risks."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Controlled Threat Scenario"^^xsd:string .
+
+
+###  http://dsse.at/ontologies/cybersecurity/RyoTgp51RNeL1U9DasGkvH
+<http://dsse.at/ontologies/cybersecurity/RyoTgp51RNeL1U9DasGkvH> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C> ;
+                                                                 rdfs:label "Risk Mitigation"@en ;
+                                                                 <http://www.w3.org/2004/02/skos/core#definition> "\"Risk Mitigation\" focuses on reducing the likelihood or impact of a risk through proactive measures and controls. Organizations implement strategies to address vulnerabilities and minimize the overall risk exposure."^^xsd:string ;
+                                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "Risk Mitigation"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi

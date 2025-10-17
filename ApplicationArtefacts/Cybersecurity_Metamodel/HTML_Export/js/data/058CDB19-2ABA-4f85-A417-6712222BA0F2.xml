@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.4:1", "", "UML4Profile", "EARoot/EA4/EA141.htm", "175.png", "21", "0", "", "Logical diagram0","{277817C0-50F3-4b3b-8343-0102E2FC7966}");
+tocTab[tocTab.length] = new Array("0.4:2", "", "Actor", "EARoot/EA4/EA144.htm", "5.png", "E258", "0", "", "Class0","{AA1F4644-0722-45b4-94DE-BC62FBCB8C0C}");
+tocTab[tocTab.length] = new Array("0.4:3", "", "Association", "EARoot/EA4/EA145.htm", "5.png", "E248", "0", "", "Class0","{B505C747-AFFF-4126-BB3B-94533218E187}");
+tocTab[tocTab.length] = new Array("0.4:4", "", "Class", "EARoot/EA4/EA146.htm", "5.png", "E245", "0", "", "Class0","{462106E1-2210-4c17-A5E2-D93DFA8CC164}");
+tocTab[tocTab.length] = new Array("0.4:5", "", "Component", "EARoot/EA4/EA147.htm", "5.png", "E250", "0", "", "Class0","{CAC26CB3-3E64-4016-A95A-BCB03E368891}");
+tocTab[tocTab.length] = new Array("0.4:6", "", "UseCase", "EARoot/EA4/EA148.htm", "5.png", "E259", "0", "", "Class0","{BC95123C-3F73-4e97-BF1B-B27283DD1894}");
