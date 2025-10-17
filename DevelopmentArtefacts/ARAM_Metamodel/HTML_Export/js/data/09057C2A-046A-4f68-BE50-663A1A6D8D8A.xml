@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("0.1.1.5:1", "", "CSM Basic Elements", "EARoot/EA1/EA1/EA5/EA128.htm", "175.png", "16", "0", "", "Logical diagram0","{E36191F0-43DC-4af8-AE95-EA86CBD38743}");
+tocTab[tocTab.length] = new Array("0.1.1.5:2", "", "CSM Element", "EARoot/EA1/EA1/EA5/EA131.htm", "5.png", "E454", "0", "", "Class0","{4612F004-D430-4f56-892D-785D705CA3EF}");
+tocTab[tocTab.length] = new Array("0.1.1.5:3", "", "CSM Entity", "EARoot/EA1/EA1/EA5/EA132.htm", "5.png", "E455", "0", "", "Class0","{D4B4D6AF-AF2F-4c00-96F9-55CBF62F5A75}");
+tocTab[tocTab.length] = new Array("0.1.1.5:4", "", "CSM Entity image", "EARoot/EA1/EA1/EA5/EA133.htm", "5.png", "E456", "0", "", "Class0","{DDF57536-1B5D-4b1e-9E3A-305F2B67375D}");
+tocTab[tocTab.length] = new Array("0.1.1.5:5", "", "CSM Entity native", "EARoot/EA1/EA1/EA5/EA134.htm", "5.png", "E457", "0", "", "Class0","{77440D34-7AF2-4471-903A-6F39E7B886A0}");
+tocTab[tocTab.length] = new Array("0.1.1.5:6", "", "CSM Relationship", "EARoot/EA1/EA1/EA5/EA135.htm", "5.png", "E458", "0", "", "Class0","{7BE15C71-6AAA-43ef-B2BC-4E826F71E818}");
+tocTab[tocTab.length] = new Array("0.1.1.5:7", "", "EnumArrowStyle", "EARoot/EA1/EA1/EA5/EA136.htm", "247.png", "E459", "0", "", "Enumeration0","{90158A16-AC21-4fdc-B237-E7AE70BF2761}");
+tocTab[tocTab.length] = new Array("0.1.1.5:8", "", "EnumColorTypes", "EARoot/EA1/EA1/EA5/EA137.htm", "247.png", "E462", "0", "", "Enumeration0","{58D61B5A-89FF-42dc-8F0D-118F3FC1D7ED}");
+tocTab[tocTab.length] = new Array("0.1.1.5:9", "", "EnumGeometricShape", "EARoot/EA1/EA1/EA5/EA138.htm", "247.png", "E463", "0", "", "Enumeration0","{F9905FF2-7AAE-46af-A1F8-4E96E8C5F5A0}");
+tocTab[tocTab.length] = new Array("0.1.1.5:10", "", "EnumImageFileType", "EARoot/EA1/EA1/EA5/EA139.htm", "247.png", "E464", "0", "", "Enumeration0","{0FA75122-FFA4-4385-B13A-460317CB4778}");
+tocTab[tocTab.length] = new Array("0.1.1.5:11", "", "EnumLineStyle", "EARoot/EA1/EA1/EA5/EA140.htm", "247.png", "E460", "0", "", "Enumeration0","{425EABB1-A418-4387-9415-82C145BE101C}");
+tocTab[tocTab.length] = new Array("0.1.1.5:12", "", "EnumMeasuringUnit", "EARoot/EA1/EA1/EA5/EA141.htm", "247.png", "E465", "0", "", "Enumeration0","{1789FA76-D7DF-4747-9AB0-9C2C5985393E}");
+tocTab[tocTab.length] = new Array("0.1.1.5:13", "", "EnumRelationDirection", "EARoot/EA1/EA1/EA5/EA142.htm", "247.png", "E461", "0", "", "Enumeration0","{3B1B8153-7D1F-492d-841A-2BDA99FD01F3}");
+tocTab[tocTab.length] = new Array("0.1.1.5:14", "", "EnumRGBColorValues", "EARoot/EA1/EA1/EA5/EA143.htm", "247.png", "E466", "0", "", "Enumeration0","{927A4BA2-4398-47b7-9A31-7C0F80B6D46B}");
+tocTab[tocTab.length] = new Array("0.1.1.5:15", "", "HorizontalAlignment", "EARoot/EA1/EA1/EA5/EA144.htm", "247.png", "E468", "0", "", "Enumeration0","{AE5884C0-A447-447d-B276-E72968533185}");
+tocTab[tocTab.length] = new Array("0.1.1.5:16", "", "VerticalAlignment", "EARoot/EA1/EA1/EA5/EA145.htm", "247.png", "E467", "0", "", "Enumeration0","{05A04A73-E852-4e5c-AC6F-311D40973B9B}");
