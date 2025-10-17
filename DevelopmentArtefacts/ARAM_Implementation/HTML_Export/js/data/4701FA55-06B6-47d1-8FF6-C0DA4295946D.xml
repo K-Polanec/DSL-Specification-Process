@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.2.4:1", "", "ARAM Communication Layer", "EARoot/EA1/EA2/EA4/EA106.htm", "175.png", "31", "0", "", "Logical diagram0","{AA94E63E-BF82-4a6d-823E-D43A8EBCCDFF}");
+tocTab[tocTab.length] = new Array("0.1.2.4:2", "", "«stereotype» ARAM Communication Layer Relationships", "EARoot/EA1/EA2/EA4/EA109.htm", "5.png", "E202", "0", "", "Class0","{9E5B8384-B669-4890-9D5B-168190BD68F3}");
+tocTab[tocTab.length] = new Array("0.1.2.4:3", "", "«metaclass» ToolboxPage", "EARoot/EA1/EA2/EA4/EA110.htm", "5.png", "E200", "0", "", "Class0","{03642F23-949C-4394-B472-ADB75F5F6D6F}");

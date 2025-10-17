@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.2.4:1", "", "ARAM Communication Layer", "EARoot/EA2/EA4/EA211.htm", "178.png", "70", "0", "", "Component diagram0","{FC8099FF-03D3-4fbc-B96E-0ECBADFB438C}");
+tocTab[tocTab.length] = new Array("0.2.4.1", "1", "Elements used from Component Layer", "EARoot/EA2/EA4/EA1/EA215.htm", "4.png", "", "", "{44AE8EAA-8C48-49f8-8129-0E3C48D1B795}", "Package");

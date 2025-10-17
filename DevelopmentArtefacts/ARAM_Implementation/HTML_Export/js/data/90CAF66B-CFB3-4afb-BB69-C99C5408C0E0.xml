@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("0.1.3:1", "", "ARAM Toolbox", "EARoot/EA1/EA3/EA117.htm", "175.png", "6", "0", "", "Logical diagram0","{A2F82ED9-4A59-456c-8105-B33E8BF29545}");
+tocTab[tocTab.length] = new Array("0.1.3:2", "", "«stereotype» ARAM Business Layer", "EARoot/EA1/EA3/EA120.htm", "5.png", "E73", "0", "", "Class0","{52DA264F-AE2B-40f9-8705-5DBDE148B481}");
+tocTab[tocTab.length] = new Array("0.1.3:3", "", "«stereotype» ARAM Communication Layer", "EARoot/EA1/EA3/EA121.htm", "5.png", "E203", "0", "", "Class0","{4420F256-A60D-4cb8-801E-B92AE974A232}");
+tocTab[tocTab.length] = new Array("0.1.3:4", "", "«stereotype» ARAM Component Layer", "EARoot/EA1/EA3/EA122.htm", "5.png", "E210", "0", "", "Class0","{D234B497-D1BB-4520-8212-736880230100}");
+tocTab[tocTab.length] = new Array("0.1.3:5", "", "«stereotype» ARAM Function Layer", "EARoot/EA1/EA3/EA123.htm", "5.png", "E130", "0", "", "Class0","{F2B936E6-4FF9-4172-9C6D-DA0211E78066}");
+tocTab[tocTab.length] = new Array("0.1.3:6", "", "«stereotype» ARAM Information Layer", "EARoot/EA1/EA3/EA124.htm", "5.png", "E147", "0", "", "Class0","{22363120-0AF1-41ba-BB66-8E9CC356A5CE}");
+tocTab[tocTab.length] = new Array("0.1.3:7", "", "«metaclass» Diagram_Component", "EARoot/EA1/EA3/EA125.htm", "5.png", "E211", "0", "", "Class0","{217A22CD-2049-4791-B052-A74A3BE8DAFF}");
+tocTab[tocTab.length] = new Array("0.1.3:8", "", "«metaclass» Diagram_Component", "EARoot/EA1/EA3/EA126.htm", "5.png", "E148", "0", "", "Class0","{02569AB8-0C95-4c3c-8F52-E3E08209B177}");
+tocTab[tocTab.length] = new Array("0.1.3:9", "", "«metaclass» Diagram_Component", "EARoot/EA1/EA3/EA127.htm", "5.png", "E131", "0", "", "Class0","{9FBEA871-132B-4634-B6B6-6EDB83F00943}");
+tocTab[tocTab.length] = new Array("0.1.3:10", "", "«metaclass» Diagram_Component", "EARoot/EA1/EA3/EA128.htm", "5.png", "E204", "0", "", "Class0","{3136FA6B-9324-4cfc-B6E4-C98FFD74541C}");
+tocTab[tocTab.length] = new Array("0.1.3:11", "", "«metaclass» Diagram_Use Case", "EARoot/EA1/EA3/EA129.htm", "5.png", "E74", "0", "", "Class0","{8975AB24-178D-4688-9059-9E935C7EA1F6}");

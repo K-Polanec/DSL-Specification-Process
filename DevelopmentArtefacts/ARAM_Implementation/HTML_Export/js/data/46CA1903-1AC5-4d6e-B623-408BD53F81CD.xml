@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.2.1:1", "", "ARAM Business Layer", "EARoot/EA2/EA1/EA136.htm", "180.png", "54", "0", "", "Use Case diagram0","{C25E13A4-1107-4a52-A853-E794773A8A0F}");
+tocTab[tocTab.length] = new Array("0.2.1.1", "1", "Business Actors", "EARoot/EA2/EA1/EA1/EA143.htm", "4.png", "", "", "{4BDEAAC5-38C8-46d7-864B-F1CC64A55EAB}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.2", "1", "Business Goals", "EARoot/EA2/EA1/EA2/EA146.htm", "4.png", "", "", "{28FFE70A-A9D9-4c84-8034-FC093299EB88}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.3", "1", "Business Use Cases", "EARoot/EA2/EA1/EA3/EA149.htm", "4.png", "", "", "{574597BF-624B-4529-A930-8FC94286CFBA}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1.4", "1", "High Level Use Cases", "EARoot/EA2/EA1/EA4/EA151.htm", "4.png", "", "", "{69E3E6C2-BE46-4a87-856F-A51848E96FF1}", "Package");

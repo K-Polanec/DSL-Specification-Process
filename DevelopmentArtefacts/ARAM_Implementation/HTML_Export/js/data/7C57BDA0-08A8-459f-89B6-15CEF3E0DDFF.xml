@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2.2:1", "", "ARAM Function Layer", "EARoot/EA1/EA2/EA2/EA94.htm", "175.png", "13", "0", "", "Logical diagram0","{00527273-7DCE-4e88-A359-976C1EA89D25}");
+tocTab[tocTab.length] = new Array("0.1.2.2:2", "", "«stereotype» ARAM Function Layer Elements", "EARoot/EA1/EA2/EA2/EA97.htm", "5.png", "E126", "0", "", "Class0","{88BAAFE3-63CA-4a6f-BF7F-2164FF524A84}");
+tocTab[tocTab.length] = new Array("0.1.2.2:3", "", "«stereotype» ARAM Function Layer Relationships", "EARoot/EA1/EA2/EA2/EA98.htm", "5.png", "E127", "0", "", "Class0","{35DBA818-B55F-46f0-8951-639A8112FF73}");
+tocTab[tocTab.length] = new Array("0.1.2.2:4", "", "«metaclass» ToolboxPage", "EARoot/EA1/EA2/EA2/EA99.htm", "5.png", "E125", "0", "", "Class0","{F148D82B-E606-4835-9447-22CDE9F9E3AC}");

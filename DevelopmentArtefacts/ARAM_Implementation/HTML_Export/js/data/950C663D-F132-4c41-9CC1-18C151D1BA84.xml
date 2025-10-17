@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2.1:1", "", "ARAM Business Layer", "EARoot/EA1/EA2/EA1/EA88.htm", "175.png", "9", "0", "", "Logical diagram0","{76BB0142-1E4F-4251-878F-2680F0DA1F1D}");
+tocTab[tocTab.length] = new Array("0.1.2.1:2", "", "«stereotype» ARAM Business Layer Elements", "EARoot/EA1/EA2/EA1/EA91.htm", "5.png", "E69", "0", "", "Class0","{FD1188ED-E6DC-49e7-AADE-511745E8ACA5}");
+tocTab[tocTab.length] = new Array("0.1.2.1:3", "", "«stereotype» ARAM Business Layer Relationships", "EARoot/EA1/EA2/EA1/EA92.htm", "5.png", "E70", "0", "", "Class0","{6B8F1A5C-99E5-4b4f-A21A-AF0A0E77E41F}");
+tocTab[tocTab.length] = new Array("0.1.2.1:4", "", "«metaclass» ToolboxPage", "EARoot/EA1/EA2/EA1/EA93.htm", "5.png", "E68", "0", "", "Class0","{6242AAD5-DD17-487e-BE35-8243D67AA751}");

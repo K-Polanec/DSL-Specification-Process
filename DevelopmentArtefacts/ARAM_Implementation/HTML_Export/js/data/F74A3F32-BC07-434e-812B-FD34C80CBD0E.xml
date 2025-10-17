@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.3.3:1", "", "«Data Object» Data Object1", "EARoot/EA3/EA3/EA260.htm", "396EC33A-4_Data Object.png", "E318", "0", "", "InformationItem0","{EE6CF1C4-DD44-4284-9FE2-6E520E2E8496}");
+tocTab[tocTab.length] = new Array("0.3.3:2", "", "«Data Representation» Data Representation1", "EARoot/EA3/EA3/EA261.htm", "396EC33A-4_Data Representation.png", "E319", "0", "", "Class0","{2E9A7089-5B45-49d1-A97B-ECC87E16C2A3}");

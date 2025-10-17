@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.5:1", "", "«EE Component» EE Component1", "EARoot/EA3/EA5/EA264.htm", "396EC33A-4_EE Component.png", "E321", "0", "", "Component0","{BDC43080-7FD4-4631-9407-521FB3C7BAA3}");
+tocTab[tocTab.length] = new Array("0.3.5:2", "", "«Mechanical Component» Mechanical Component1", "EARoot/EA3/EA5/EA265.htm", "396EC33A-4_Mechanical Component.png", "E322", "0", "", "Component0","{256A6C48-473A-4bc8-B07C-6C4F4306F6BC}");
+tocTab[tocTab.length] = new Array("0.3.5:3", "", "«Software Component» Software Component1", "EARoot/EA3/EA5/EA266.htm", "396EC33A-4_Software Component.png", "E323", "0", "", "Component0","{A264EDD9-F35E-4165-8B81-629A9CD6E014}");
+tocTab[tocTab.length] = new Array("0.3.5:4", "", "«Technical Component» TechnicalComponent1", "EARoot/EA3/EA5/EA267.htm", "10.png", "E502", "0", "", "Component0","{961A1CB5-B335-46ee-B331-9C95B1BE25C2}");

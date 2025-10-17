@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.3.1:1", "", "«Business Goal» Business Goal", "EARoot/EA3/EA1/EA247.htm", "396EC33A-4_Business Goal.png", "E476", "0", "", "Requirement0","{AEF5E67E-3D1B-413a-ACAF-21DD28195101}");
+tocTab[tocTab.length] = new Array("0.3.1:2", "", "«Business Use Case» Business Use Case", "EARoot/EA3/EA1/EA248.htm", "396EC33A-4_Business Use Case.png", "E478", "0", "", "UseCase0","{ABBDDFB2-4067-4a25-B8A8-1AFF71678A2B}");
+tocTab[tocTab.length] = new Array("0.3.1:3", "", "«Business Actor» BusinessActor", "EARoot/EA3/EA1/EA249.htm", "6.png", "E475", "0", "", "Actor0","{57663369-756A-4709-88BC-523DDDDA51E0}");
+tocTab[tocTab.length] = new Array("0.3.1:4", "", "«High Level Use Case» High Level Use Case", "EARoot/EA3/EA1/EA250.htm", "396EC33A-4_High Level Use Case.png", "E480", "0", "", "UseCase0","{AA2CC04A-D8A1-433f-BC18-D49DB8F1D937}");

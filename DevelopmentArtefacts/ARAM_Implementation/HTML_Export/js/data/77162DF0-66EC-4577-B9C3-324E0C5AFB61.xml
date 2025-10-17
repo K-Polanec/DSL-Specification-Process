@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.3.2:1", "", "«Functional Component» Functional Component1", "EARoot/EA3/EA2/EA252.htm", "396EC33A-4_Functional Component.png", "E522", "0", "", "Component0","{5354C32F-A5BE-4ff5-B28B-B876E3F422EE}");
+tocTab[tocTab.length] = new Array("0.3.2:2", "", "«Functional Component» Functional Component2", "EARoot/EA3/EA2/EA253.htm", "396EC33A-4_Functional Component.png", "E523", "0", "", "Component0","{1C034DDB-DCEE-477a-9969-85B88DFB2ED6}");
+tocTab[tocTab.length] = new Array("0.3.2:3", "", "«Functional Group» Functional Group", "EARoot/EA3/EA2/EA254.htm", "396EC33A-4_Functional Group.png", "E520", "0", "", "Class0","{FC7D6FB4-BE50-4222-9447-841277A99912}");
+tocTab[tocTab.length] = new Array("0.3.2:4", "", "«Information Object» Information Object", "EARoot/EA3/EA2/EA255.htm", "396EC33A-4_Information Object.png", "E317", "0", "", "InformationItem0","{30192CDC-5D6A-45c1-BC79-EE9BD015229A}");
+tocTab[tocTab.length] = new Array("0.3.2:5", "", "«Primary Use Case» PUC", "EARoot/EA3/EA2/EA256.htm", "7.png", "E313", "0", "", "UseCase0","{EA367248-A16C-4391-836B-503A708FE473}");
+tocTab[tocTab.length] = new Array("0.3.2:6", "", "«PUC Behavior» PUC Behavior", "EARoot/EA3/EA2/EA257.htm", "396EC33A-4_PUC Behavior.png", "E519", "0", "", "Activity0","{8DC44FC1-593B-4e06-86F4-C9E8DAA471E6}");
+tocTab[tocTab.length] = new Array("0.3.2:7", "", "Action1", "EARoot/EA3/EA2/EA258.htm", "104.png", "E521", "E519", "", "Action0","{75947602-DA3C-444b-B207-12B5FF7FA6D3}");

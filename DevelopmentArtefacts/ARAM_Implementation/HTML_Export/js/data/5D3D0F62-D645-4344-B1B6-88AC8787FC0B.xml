@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("0.2.2:1", "", "ARAM Function Layer", "EARoot/EA2/EA2/EA153.htm", "178.png", "55", "0", "", "Component diagram0","{70DBF7AC-2C8C-40f5-8467-771909277916}");
+tocTab[tocTab.length] = new Array("0.2.2:2", "", "Functional Components Identification", "EARoot/EA2/EA2/EA155.htm", "178.png", "74", "0", "", "Component diagram0","{68A7143C-CE6F-49a3-907C-AE1A44740F34}");
+tocTab[tocTab.length] = new Array("0.2.2:3", "", "Functional Group Assignment", "EARoot/EA2/EA2/EA157.htm", "178.png", "73", "0", "", "Component diagram0","{9745FBC6-9E34-4864-B174-F89B416ACA5F}");
+tocTab[tocTab.length] = new Array("0.2.2.1", "1", "Behaviors", "EARoot/EA2/EA2/EA1/EA168.htm", "4.png", "", "", "{E676E492-BDE4-406f-B7C4-12B715E005DC}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.2", "1", "Elements used from Business Layer", "EARoot/EA2/EA2/EA2/EA177.htm", "4.png", "", "", "{382C19F6-1E9E-4c8c-96B2-8165406A930C}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.3", "1", "Functional Components", "EARoot/EA2/EA2/EA3/EA179.htm", "4.png", "", "", "{75DE1E95-5B3F-4c54-9F80-BFFFB72FBAAC}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.4", "1", "Functional Groups", "EARoot/EA2/EA2/EA4/EA182.htm", "4.png", "", "", "{3FD1032D-D8F3-41e6-85F3-10B2462243AE}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.5", "", "Information Objects", "EARoot/EA2/EA2/EA5/EA185.htm", "4.png", "", "", "{D93A596E-D242-4c98-B9A6-2DDD2D71CCE2}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.6", "1", "PUCs", "EARoot/EA2/EA2/EA6/EA188.htm", "4.png", "", "", "{87FDAFCE-45AE-4519-AC0D-19D1DC945346}", "Package");

@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.2.4.1:1", "", "«EE Component» EE Component1", "EARoot/EA2/EA4/EA1/EA216.htm", "396EC33A-4_EE Component.png", "E449", "0", "", "Component0","{01370FD9-3CE6-44b9-8BFC-8F67E6E08C92}");
+tocTab[tocTab.length] = new Array("0.2.4.1:2", "", "«EE Component» EE Component2", "EARoot/EA2/EA4/EA1/EA217.htm", "396EC33A-4_EE Component.png", "E451", "0", "", "Component0","{7151393D-6335-43f4-ADD9-534B9742D2D7}");
+tocTab[tocTab.length] = new Array("0.2.4.1:3", "", "«Mechanical Component» Mechanical Component1", "EARoot/EA2/EA4/EA1/EA218.htm", "396EC33A-4_Mechanical Component.png", "E448", "0", "", "Component0","{369A43EC-E464-4ae1-ADD1-5DD584C5376E}");

@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.2.5:1", "", "ARAM Component Layer", "EARoot/EA1/EA2/EA5/EA111.htm", "175.png", "32", "0", "", "Logical diagram0","{569EABDF-E065-4a90-AA92-194FE1F70C2E}");
+tocTab[tocTab.length] = new Array("0.1.2.5:2", "", "«stereotype» ARAM Component Layer Elements", "EARoot/EA1/EA2/EA5/EA114.htm", "5.png", "E208", "0", "", "Class0","{BF73136B-AD28-4d43-8B1D-540667F3597B}");
+tocTab[tocTab.length] = new Array("0.1.2.5:3", "", "«stereotype» ARAM Component Layer Relationships", "EARoot/EA1/EA2/EA5/EA115.htm", "5.png", "E209", "0", "", "Class0","{0129AB50-614C-4060-8496-20DB84467162}");
+tocTab[tocTab.length] = new Array("0.1.2.5:4", "", "«metaclass» ToolboxPage", "EARoot/EA1/EA2/EA5/EA116.htm", "5.png", "E207", "0", "", "Class0","{D34A9957-173D-4867-B8B9-12144D3B4D08}");

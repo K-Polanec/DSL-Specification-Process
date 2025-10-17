@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.2.1", "1", "«toolbox profile» ARAM Business Layer", "EARoot/EA1/EA2/EA1/EA90.htm", "4.png", "", "", "{950C663D-F132-4c41-9CC1-18C151D1BA84}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.2", "1", "«toolbox profile» ARAM Function Layer", "EARoot/EA1/EA2/EA2/EA96.htm", "4.png", "", "", "{7C57BDA0-08A8-459f-89B6-15CEF3E0DDFF}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.3", "1", "«toolbox profile» ARAM Information Layer", "EARoot/EA1/EA2/EA3/EA102.htm", "4.png", "", "", "{DE776494-7F50-4f1b-84F6-DBB889973980}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.4", "1", "«toolbox profile» ARAM Communication Layer", "EARoot/EA1/EA2/EA4/EA108.htm", "4.png", "", "", "{4701FA55-06B6-47d1-8FF6-C0DA4295946D}", "Package");
+tocTab[tocTab.length] = new Array("0.1.2.5", "1", "«toolbox profile» ARAM Component Layer", "EARoot/EA1/EA2/EA5/EA113.htm", "4.png", "", "", "{2E5B9A1A-A980-4142-AA23-6CA9BFE23254}", "Package");

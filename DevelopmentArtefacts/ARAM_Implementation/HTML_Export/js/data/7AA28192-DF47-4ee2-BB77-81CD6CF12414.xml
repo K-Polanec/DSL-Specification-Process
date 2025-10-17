@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3:1", "", "ARAM Layers Overview", "EARoot/EA3/EA233.htm", "175.png", "48", "0", "", "Logical diagram0","{BF390A55-2311-4ea8-B0F6-37F1C84A83DF}");
+tocTab[tocTab.length] = new Array("0.3.1", "1", "ARAM Business Layer", "EARoot/EA3/EA1/EA246.htm", "4.png", "", "", "{B350193E-CF02-42f6-B628-A24098491383}", "Package");
+tocTab[tocTab.length] = new Array("0.3.2", "1", "ARAM Function Layer", "EARoot/EA3/EA2/EA251.htm", "4.png", "", "", "{77162DF0-66EC-4577-B9C3-324E0C5AFB61}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3", "1", "ARAM Information Layer", "EARoot/EA3/EA3/EA259.htm", "4.png", "", "", "{F74A3F32-BC07-434e-812B-FD34C80CBD0E}", "Package");
+tocTab[tocTab.length] = new Array("0.3.4", "", "ARAM Communication Layer", "EARoot/EA3/EA4/EA262.htm", "4.png", "", "", "{DF4346AA-20AD-438f-B39C-5358E8B8BCE9}", "Package");
+tocTab[tocTab.length] = new Array("0.3.5", "1", "ARAM Component Layer", "EARoot/EA3/EA5/EA263.htm", "4.png", "", "", "{0820BFD3-DDFB-445a-8FF8-2F5BD2FD2238}", "Package");

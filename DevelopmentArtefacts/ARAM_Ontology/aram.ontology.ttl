@@ -1,0 +1,616 @@
+@prefix : <http://webprotege.stanford.edu/project/DM1T9Tq8gllKPHIkSNr80f#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://webprotege.stanford.edu/project/DM1T9Tq8gllKPHIkSNr80f> .
+
+<http://webprotege.stanford.edu/project/DM1T9Tq8gllKPHIkSNr80f> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dsse.at/ontology/aram/R6eCQdC8Do1fQIuo8CciqX
+<http://dsse.at/ontology/aram/R6eCQdC8Do1fQIuo8CciqX> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                      rdfs:domain <http://dsse.at/ontology/aram/R8jVfPm83PS0rGt8LROEvC0> ;
+                                                      rdfs:range <http://dsse.at/ontology/aram/R8RWxNgLWdOzWEPqcj5yHvo> ;
+                                                      rdfs:label "Contribution"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "A contributes to relationship is modeled between a business use case and a business goal. It expresses that the business use case is in accordance with, and purposefully facilitates the fulfillment of a business goal."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "contributes"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R71Q5tiPS6ibvZnMFpKJ2Tg
+<http://dsse.at/ontology/aram/R71Q5tiPS6ibvZnMFpKJ2Tg> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R7UMWYMT9EVJmxkwzGocwKa> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R8cTgWXmZoar42nnRPau8nF> ;
+                                                       rdfs:label "DetailedThrough"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The detailed-through relationship is used between a PUC behavior and a primary use case. It expresses, that a behavior (activity diagram) refines the primary use case."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "detailed through"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R7KpBqjdfK45y9kbX6nlmuF
+<http://dsse.at/ontology/aram/R7KpBqjdfK45y9kbX6nlmuF> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/RZMdgpBH0Kvwtk71pIR72V> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R7cxCv3b3JFlhCfXvBgycQW> ;
+                                                       rdfs:label "ExecutedBy"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The executed-by relationship connects a functional group to its executing functional component."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "executed by"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R7pjt1MTRacT5lv4aHOqQ0X
+<http://dsse.at/ontology/aram/R7pjt1MTRacT5lv4aHOqQ0X> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RDNnAWUgMwBoSAX3ezc8en> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:label "FlexRay"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A FlexRay relationship enables deterministic time responses and redundancy. Therefore, it is used for security-critical applications."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "FlexRay"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA
+<http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs> ;
+                                                       rdfs:label "Featured in"@en .
+
+
+###  http://dsse.at/ontology/aram/R8lfvcmTdNiuyH7zKDdcYHX
+<http://dsse.at/ontology/aram/R8lfvcmTdNiuyH7zKDdcYHX> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RDNnAWUgMwBoSAX3ezc8en> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:label "ControllerAreaNetwork"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A ”Controller Area Network” relationship is typically used for the connection of large numbers of ECUs."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "CAN"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R8xcLqRCPWOPUiUbO08cpUT
+<http://dsse.at/ontology/aram/R8xcLqRCPWOPUiUbO08cpUT> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RDNnAWUgMwBoSAX3ezc8en> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:label "LocalInterconnectNetwork"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A ”Local Interconnected Network” relationship is used for the integration of actuators and sensors into vehicle networks."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "LIN"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R92Cn0NmZHEvGbX5sjwzFO5
+<http://dsse.at/ontology/aram/R92Cn0NmZHEvGbX5sjwzFO5> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/RBf1sE2uFMoKeq0AV5wc52K> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/RZMdgpBH0Kvwtk71pIR72V> ;
+                                                       rdfs:label "AssignedTo"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The assigned-to relationship is used between an action element and a functional group. It indicates, that an action element needed for the activity diagram of a primary use case is assigned to a functional group."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "assigned to"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R9EnK71Q1wah2CNk8Q8vL0o
+<http://dsse.at/ontology/aram/R9EnK71Q1wah2CNk8Q8vL0o> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:label "DataObjectFlow"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The data object flow is a relationship on the information layer that indicates some sort of data exchange between two components from the component layer. To further specify the data that is exchanged between the two components, the data object flow can transport data objects."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Object Flow"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R9F5SFzJ7KYN8HF2yivo4FZ
+<http://dsse.at/ontology/aram/R9F5SFzJ7KYN8HF2yivo4FZ> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:label "PhysicalConnector"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "This relationship expresses that certain vehicular components are connected on a physical level."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "physical connector"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD
+<http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf owl:topObjectProperty ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs> ;
+                                                       rdfs:label "Introduced in"@en .
+
+
+###  http://dsse.at/ontology/aram/R9U7ZKKxjKzNAHFZuPUh3i9
+<http://dsse.at/ontology/aram/R9U7ZKKxjKzNAHFZuPUh3i9> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RDNnAWUgMwBoSAX3ezc8en> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:label "MediaOrientedSystemsTransport"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A ”Media Oriented System Transport” relationship is used for the integration of infotainment ECUs due to its special communication mechanisms and high data rates."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "MOST"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RCT9PUKwnUzDyBbA7mQTz4D
+<http://dsse.at/ontology/aram/RCT9PUKwnUzDyBbA7mQTz4D> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R8MkLmWZfzeaBf1DL20iZmX> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R8jVfPm83PS0rGt8LROEvC0> ;
+                                                       rdfs:label "Participation"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> """A participates in relationship indicates that a business actor is actively involved in carrying
+out a business use case to fulfill their business goal. Hence, it is a relationship between business actors and business use cases."""^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "participates in"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RCppBFZI4ebGJ73Byl1a7xm
+<http://dsse.at/ontology/aram/RCppBFZI4ebGJ73Byl1a7xm> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/RpGyWMZswbeYnsRXj6txQz> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R8jVfPm83PS0rGt8LROEvC0> ;
+                                                       rdfs:label "Enablement"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "An enables relationship is modeled between a business use case and a high-level use case. This relationship expresses that a high-level use case represents the system-level realization of the business utility prescribed by a business use case."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "enables"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RCqpjQo2A41TYLN8jOVJSS4
+<http://dsse.at/ontology/aram/RCqpjQo2A41TYLN8jOVJSS4> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R9q7Thcq87PUsQGZEYGVRRl> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/RdWiQ7dEIqW2epxPkzUhGU> ;
+                                                       rdfs:label "Definition"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The define relationship expresses that logical components are defined through primary use cases. Whilst defining the primary use cases of a system also the logical components which take part in the use-case process are revealed."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "defines"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RDHzp8GM9LphknLc5TDCBcZ
+<http://dsse.at/ontology/aram/RDHzp8GM9LphknLc5TDCBcZ> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R8MkLmWZfzeaBf1DL20iZmX> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R8RWxNgLWdOzWEPqcj5yHvo> ;
+                                                       rdfs:label "SeekingToAchieve"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A seeks to achieve relationship is a relationship between a business actor and a business goal. It expresses, that a business actor has an intention and actively attempts to accomplish the respective business goal."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "seeks to achieve"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RDNnAWUgMwBoSAX3ezc8en
+<http://dsse.at/ontology/aram/RDNnAWUgMwBoSAX3ezc8en> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                      rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                      rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                      rdfs:label "AutomotiveBusSystem"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "This relationship can be used to model other connection types apart from the ones provided by the DSL on the communication layer."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Automotive Bus System"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RDYWGVWv5EkPTdQwSKyXGHg
+<http://dsse.at/ontology/aram/RDYWGVWv5EkPTdQwSKyXGHg> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                       rdfs:label "PartOf"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The part-of relationship can be used to express that multiple technical components are part of another (superordinate) technical component."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "part of"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RDc0TlDLaYTVfJ30D56SQzq
+<http://dsse.at/ontology/aram/RDc0TlDLaYTVfJ30D56SQzq> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                       rdfs:domain <http://dsse.at/ontology/aram/R8jlJSAQQHHqoWETJBmgn9k> ;
+                                                       rdfs:range <http://dsse.at/ontology/aram/RdWiQ7dEIqW2epxPkzUhGU> ;
+                                                       rdfs:label "ExpressedBy"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The expressed-by relationship is modeled from information object to data object and from information object flow to data object flow. It means, that the information object (flow) is expressed in detail by the data object (flow)."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "expressed by"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RToUHrl3BkM6VNfUksTgxG
+<http://dsse.at/ontology/aram/RToUHrl3BkM6VNfUksTgxG> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                      rdfs:domain <http://dsse.at/ontology/aram/R7cxCv3b3JFlhCfXvBgycQW> ;
+                                                      rdfs:range <http://dsse.at/ontology/aram/R7cxCv3b3JFlhCfXvBgycQW> ;
+                                                      rdfs:label "InformationObjectFlow"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "The information object flow is a relationship on the function layer that indicates some sort of information exchange between two functional components. To further specify the information that is exchanged between the two components, the information object flow can transport information objects."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Information Object Flow"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RhTaZeolsuSbp1D7udgpye
+<http://dsse.at/ontology/aram/RhTaZeolsuSbp1D7udgpye> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                      rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                      rdfs:range <http://dsse.at/ontology/aram/R7cxCv3b3JFlhCfXvBgycQW> ;
+                                                      rdfs:label "TechnicalRealization"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "The technical realization is a relationship between functional component and technical component, expressing that the technical component is the technical realization of a functional component."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "technical realization"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RlooZFyjCL2OrgFSlXO62q
+<http://dsse.at/ontology/aram/RlooZFyjCL2OrgFSlXO62q> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf <http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> ;
+                                                      rdfs:domain <http://dsse.at/ontology/aram/RpGyWMZswbeYnsRXj6txQz> ;
+                                                      rdfs:range <http://dsse.at/ontology/aram/R8cTgWXmZoar42nnRPau8nF> ;
+                                                      rdfs:label "Invokes"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "The invokes relationship is modeled from HLUC to PUC. It indicates that the HLUC invokes one or more PUCs to further define and realize its purpose from the system's perspective."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "invokes"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RopRHGJSEu1Eid5qQOdfcS
+<http://dsse.at/ontology/aram/RopRHGJSEu1Eid5qQOdfcS> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf <http://dsse.at/ontology/aram/RDNnAWUgMwBoSAX3ezc8en> ;
+                                                      rdfs:domain <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                      rdfs:range <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ;
+                                                      rdfs:label "Ethernet"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "The major advantage of ethernet relationships lies within inexpensive components and extremely high bandwidth."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Ethernet"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP
+<http://dsse.at/ontology/aram/RuAouzxyiA52fFlIu7uGfP> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                                      rdfs:label "Automotive Reference Architecture Model Relationship"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dsse.at/ontology/aram/R7UMWYMT9EVJmxkwzGocwKa
+<http://dsse.at/ontology/aram/R7UMWYMT9EVJmxkwzGocwKa> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ;
+                                                       rdfs:label "PrimaryUseCaseBehavior"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A PUC behavior is an element that leads to a detailed description of each primary use case. This detailed description is a child diagram of the respective function and can be displayed using classical behavioral diagrams."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "PUC Behavior"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R7cxCv3b3JFlhCfXvBgycQW
+<http://dsse.at/ontology/aram/R7cxCv3b3JFlhCfXvBgycQW> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ;
+                                                       rdfs:label "FunctionalComponent"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "Functional components are system actors that can be either a subsystem, a person, a component or any other entity. On this level of the framework, the components are referred to as functional because no technical solution is known yet. Functional components serve as a basis for the logical, solution-neutral architecture of the system."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Functional Component"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE
+<http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RDBKySmnKyfA7f5HNQOf3s0>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ;
+                                                       rdfs:label "TechnicalComponent"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A technical component can be used to model a type of component apart from the ones provided by the DSL on the component layer."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Component"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R8MkLmWZfzeaBf1DL20iZmX
+<http://dsse.at/ontology/aram/R8MkLmWZfzeaBf1DL20iZmX> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb>
+                                                                       ] ;
+                                                       rdfs:label "BusinessActor"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A business actor represents an entity fulfilling one role and being intrinsically linked to that role. It seeks to achieve its business goals by participating in one or more business use cases. A stakeholder can hold one or more roles relevant to the business use cases of interest and is therefore represented by one or more business actors."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Business Actor"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R8RWxNgLWdOzWEPqcj5yHvo
+<http://dsse.at/ontology/aram/R8RWxNgLWdOzWEPqcj5yHvo> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb>
+                                                                       ] ;
+                                                       rdfs:label "BusinessGoal"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A business goal is a desired outcome that a business actor seeks to achieve, expressed in a way that is measurable and achievable, and that contributes to the overall success of the organization."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Business Goal"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R8cTgWXmZoar42nnRPau8nF
+<http://dsse.at/ontology/aram/R8cTgWXmZoar42nnRPau8nF> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ;
+                                                       rdfs:label "PrimaryUseCase"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A primary use case expresses workflows that need to be realized by the system of interest to fulfill the envisioned functionality."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "PUC"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R8jVfPm83PS0rGt8LROEvC0
+<http://dsse.at/ontology/aram/R8jVfPm83PS0rGt8LROEvC0> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb>
+                                                                       ] ;
+                                                       rdfs:label "BusinessUseCase"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "A business use case is a description of a sequence of actions that a business actor takes to achieve a business goal, expressed in a way that is independent of any specific system or technology."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Business Use Case"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R8jlJSAQQHHqoWETJBmgn9k
+<http://dsse.at/ontology/aram/R8jlJSAQQHHqoWETJBmgn9k> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ;
+                                                       rdfs:label "InformationObject"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "To fulfill the workflows of each primary use case, the functional components interchange information. The information object describes this information that is exchanged between functional components."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Information Object"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn
+<http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs> ;
+                                                       rdfs:label "Automotive Reference Architecture Model Component Layer"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "ARAM Component Layer"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R94QtPx22CbxWaNNdjdBgB4
+<http://dsse.at/ontology/aram/R94QtPx22CbxWaNNdjdBgB4> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RDBKySmnKyfA7f5HNQOf3s0>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ;
+                                                       rdfs:label "SoftwareComponent"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "Software components are elements used to model the main software units of the vehicular system."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Software Component"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R97jNfpanAiRobiIqobBNxE
+<http://dsse.at/ontology/aram/R97jNfpanAiRobiIqobBNxE> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RDBKySmnKyfA7f5HNQOf3s0>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ;
+                                                       rdfs:label "MechanicalComponent"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "Mechanical components are elements used to model basic components of a vehicle like chassis, engine, and similar."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Mechanical Component"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/R9q7Thcq87PUsQGZEYGVRRl
+<http://dsse.at/ontology/aram/R9q7Thcq87PUsQGZEYGVRRl> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                       ] ;
+                                                       rdfs:label "DataRepresentation"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "The data representation element defines how a data object is represented. This can either be a standard or any other data model (could also be for instance something like a JSON representation)."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Representation"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RBf1sE2uFMoKeq0AV5wc52K
+<http://dsse.at/ontology/aram/RBf1sE2uFMoKeq0AV5wc52K> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                       ] ;
+                                                       <http://purl.org/dc/elements/1.1/description> "This is a native UML element"^^xsd:string ;
+                                                       rdfs:label "Action"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "An Action is the fundamental unit of executable functionality. The execution of an Action represents some transformation or processing in the modeled system. Actions provide the ExecutableNodes within Activities and may also be used within Interactions."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Action"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RBh2OLJjKOyEENrCV783UF6
+<http://dsse.at/ontology/aram/RBh2OLJjKOyEENrCV783UF6> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/R7jZOeOOSu6MnY6OF04VdYE> ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/RDBKySmnKyfA7f5HNQOf3s0>
+                                                                       ] ,
+                                                                       [ rdf:type owl:Restriction ;
+                                                                         owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                         owl:someValuesFrom <http://dsse.at/ontology/aram/R8tHGAXvhz94e01tGS5rZVn>
+                                                                       ] ;
+                                                       rdfs:label "ElectronicsElectricsComponent"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#definition> "Electric/electronic components are elements that mainly control different systems within the vehicle, like ABS, ESP and similar."^^xsd:string ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "EE Component"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb
+<http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs> ;
+                                                       rdfs:label "Automotive Reference Architecture Model Business Layer"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "ARAM Business Layer"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u
+<http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs> ;
+                                                       rdfs:label "Automotive Reference Architecture Model Function Layer"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "ARAM Function Layer"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2
+<http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs> ;
+                                                       rdfs:label "Automotive Reference Architecture Model Information Layer"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "ARAM Information Layer"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RDBKySmnKyfA7f5HNQOf3s0
+<http://dsse.at/ontology/aram/RDBKySmnKyfA7f5HNQOf3s0> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs> ;
+                                                       rdfs:label "Automotive Reference Architecture Model Communication Layer"@en ;
+                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "ARAM Communication Layer"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs
+<http://dsse.at/ontology/aram/RWvJnp1BzbxO8LrTs2vobs> rdf:type owl:Class ;
+                                                      rdfs:label "Automotive Reference Architecture Model Layer"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ARAM Layer"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RZMdgpBH0Kvwtk71pIR72V
+<http://dsse.at/ontology/aram/RZMdgpBH0Kvwtk71pIR72V> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                        owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                        owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                      ] ;
+                                                      rdfs:label "FunctionalGroup"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "A functional group is an element that describes a specific function that is executed by the system under development. It is used to cluster similar actions that must be executed to fulfill the system's primary use cases."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Functional Group"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RdWiQ7dEIqW2epxPkzUhGU
+<http://dsse.at/ontology/aram/RdWiQ7dEIqW2epxPkzUhGU> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                        owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                        owl:someValuesFrom <http://dsse.at/ontology/aram/RClP7odLpjRTlmQVoCGIJx2>
+                                                                      ] ;
+                                                      rdfs:label "DataObject"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "A data object is a piece of data that is exchanged between components (from the component layer). More specifically, it specifies the kind of information object that is exchanged between the logical components from the function layer."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "Data Object"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/RpGyWMZswbeYnsRXj6txQz
+<http://dsse.at/ontology/aram/RpGyWMZswbeYnsRXj6txQz> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                        owl:someValuesFrom <http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://dsse.at/ontology/aram/R8F39yhYOSE1afHK82PKwCA> ;
+                                                                        owl:someValuesFrom <http://dsse.at/ontology/aram/RCCiteDTi5lAwJsz4sIgC9u>
+                                                                      ] ,
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty <http://dsse.at/ontology/aram/R9LJeMYPMARZZXbKHmkslMD> ;
+                                                                        owl:someValuesFrom <http://dsse.at/ontology/aram/RBhRAnuQVVgticG08IZO4yb>
+                                                                      ] ;
+                                                      rdfs:label "HighLevelUseCase"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#definition> "A HLUC is a use case that describes a general capability, idea or concept independently from a specific technical realization like an architectural solution."^^xsd:string ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "HLUC"^^xsd:string .
+
+
+###  http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG
+<http://dsse.at/ontology/aram/Ryar981beNAfMVPHxGCgVG> rdf:type owl:Class ;
+                                                      rdfs:label "Automotive Reference Architecture Model Entity"@en ;
+                                                      <http://www.w3.org/2004/02/skos/core#prefLabel> "ARAM Entity"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
