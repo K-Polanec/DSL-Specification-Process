@@ -1,0 +1,424 @@
+﻿<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/GgNvJ94cfga2BsSxt76Eu#"
+     xml:base="http://webprotege.stanford.edu/project/GgNvJ94cfga2BsSxt76Eu"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:ontomo="http://dsse.at/ontologies/ontomo#">
+	<owl:Ontology rdf:about="http://webprotege.stanford.edu/project/GgNvJ94cfga2BsSxt76Eu"/>
+
+
+
+	<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+	<!-- http://dsse.at/ontologies/ontomo#language -->
+
+	<owl:AnnotationProperty rdf:about="http://dsse.at/ontologies/ontomo#language">
+		<rdfs:label xml:lang="en">ontomo:language</rdfs:label>
+	</owl:AnnotationProperty>
+
+
+
+	<!-- http://dsse.at/ontologies/ontomo#languageAbstract -->
+
+	<owl:AnnotationProperty rdf:about="http://dsse.at/ontologies/ontomo#languageAbstract">
+		<rdfs:label xml:lang="en">ontomo:languageAbstract</rdfs:label>
+	</owl:AnnotationProperty>
+
+
+
+	<!-- http://dsse.at/ontologies/ontomo#ontomo -->
+
+	<owl:AnnotationProperty rdf:about="http://dsse.at/ontologies/ontomo#ontomo">
+		<rdfs:label xml:lang="en">ontomo:ontomo</rdfs:label>
+	</owl:AnnotationProperty>
+
+
+
+	<!-- http://dsse.at/ontologies/ontomo#view -->
+
+	<owl:AnnotationProperty rdf:about="http://dsse.at/ontologies/ontomo#view">
+		<rdfs:label xml:lang="en">ontomo:view</rdfs:label>
+	</owl:AnnotationProperty>
+
+
+
+	<!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+	<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+
+
+
+	<!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+	<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+
+
+
+	<!-- http://www.w3.org/2004/02/skos/core#example -->
+
+	<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+
+
+
+	<!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+	<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+
+
+
+	<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/R72dd5t6zbRJBZPoYtzj7zU -->
+
+	<owl:ObjectProperty rdf:about="http://dsse.at/ontologies/cybersecurity/R72dd5t6zbRJBZPoYtzj7zU">
+		<rdfs:subPropertyOf rdf:resource="http://dsse.at/ontologies/cybersecurity/R7qTfhmbbQ8LadOgKGrsl5T"/>
+		<rdfs:domain rdf:resource="http://dsse.at/ontologies/cybersecurity/RDuXy3V0v36vexJi1J14uLb"/>
+		<rdfs:range rdf:resource="http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK"/>
+		<ontomo:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">exposedTo</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relation &quot;exposed to&quot; indicates, that the element at the source of this relation is potentially negatively influenced by the target element. This is because the target element has one or more direct ways of correspondence to the source element.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exposed to</skos:prefLabel>
+	</owl:ObjectProperty>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/R7qTfhmbbQ8LadOgKGrsl5T -->
+
+	<owl:ObjectProperty rdf:about="http://dsse.at/ontologies/cybersecurity/R7qTfhmbbQ8LadOgKGrsl5T">
+		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+		<rdfs:label xml:lang="en">Cybersecurity Relation</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common parent element for all relation-like things in the Cybersecurity language</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity Relation</skos:prefLabel>
+	</owl:ObjectProperty>
+
+
+
+	<!-- http://dsse.at/ontologies/ontomo#featuredIn -->
+
+	<owl:ObjectProperty rdf:about="http://dsse.at/ontologies/ontomo#featuredIn">
+		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+		<ontomo:ontomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">featuredIn</ontomo:ontomo>
+		<rdfs:label xml:lang="en">featuredIn</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This object property is used to indicate in which view an element is typically displayed</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">featured in</skos:prefLabel>
+	</owl:ObjectProperty>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RBbpd0P1L96tahVxetGHuUQ -->
+
+	<owl:ObjectProperty rdf:about="http://dsse.at/ontologies/cybersecurity/RBbpd0P1L96tahVxetGHuUQ">
+		<rdfs:subPropertyOf rdf:resource="http://dsse.at/ontologies/cybersecurity/R7qTfhmbbQ8LadOgKGrsl5T"/>
+		<rdfs:domain rdf:resource="http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK"/>
+		<rdfs:range rdf:resource="http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz"/>
+		<ontomo:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">treatedWith</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The relation &quot;treated with&quot; indicates, that the target element tries to either explicitly accept or compensate one or more disadvantages of the source element.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treated with</skos:prefLabel>
+	</owl:ObjectProperty>
+
+
+
+	<!-- http://dsse.at/ontologies/ontomo#introducedIn -->
+
+	<owl:ObjectProperty rdf:about="http://dsse.at/ontologies/ontomo#introducedIn">
+		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+		<ontomo:ontomo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">introducedIn</ontomo:ontomo>
+		<rdfs:label xml:lang="en">introducedIn</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This object property is used to indicate in which view an element is typically created, so it is introduced to the whole model</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">introduced in</skos:prefLabel>
+	</owl:ObjectProperty>
+
+
+
+	<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RCwJP3bgSXzZ5onfgpukScn -->
+
+	<owl:DatatypeProperty rdf:about="http://dsse.at/ontologies/cybersecurity/RCwJP3bgSXzZ5onfgpukScn">
+		<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+		<rdfs:domain rdf:resource="http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+		<ontomo:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">isAcknowledged</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If the property &quot;is acknowledged&quot; is set to &quot;true&quot;, this means the related Risk Treatment Decision was validated or accepted by an authorized individual person.</skos:definition>
+		<skos:prefLabel xml:lang="en">is acknowledged</skos:prefLabel>
+	</owl:DatatypeProperty>
+
+
+
+	<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/R7JnUGzJd17Yh3zC6SRvtQ7 -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/R7JnUGzJd17Yh3zC6SRvtQ7">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C"/>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#featuredIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#introducedIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<ontomo:language xml:lang="en">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">RiskTransfer</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Risk Transfer&quot; involves shifting the financial burden of a risk to another party (at business level) or other system components. This approach aims to protect systems assets by passing on the responsibility for potential losses to an external entity like an insurance or other system components which produce thereby a lower risk.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Transfer</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/R8Xkb8MnBME5hV5QWGe44iK">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RS3cLkYLSoxtKOFOFxM93T"/>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#featuredIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/cybersecurity/RBbpd0P1L96tahVxetGHuUQ"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#introducedIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RDBC9k0LCihiMGjHaDoz4yR"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<ontomo:language xml:lang="en">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">Risk</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+			A (cybersecurity) &quot;Risk&quot; is defined in ISO 21434 as the potential for a cybersecurity incident to occur, which may lead to failures and damages on the system and its environment.
+			Its importance to implement countermeasures is assessed by multiplying the likelihood and the damage potential of that incident.
+		</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RByE9tHnSgDjpyNI2goty4T -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RByE9tHnSgDjpyNI2goty4T">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz"/>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#featuredIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#introducedIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<ontomo:language xml:lang="en">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">RiskAcceptance</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Risk Acceptance&quot; is not a Countermeasure but is a valid Risk Treatment Decision. It involves acknowledging a specific risk without actively attempting to alter its likelihood or impact. Organizations consciously decide to tolerate the potential consequences, often when the cost of implementing Countermeasures outweighs the expected loss.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Acceptance</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RS3cLkYLSoxtKOFOFxM93T"/>
+		<ontomo:languageAbstract xml:lang="en">Cybersecurity</ontomo:languageAbstract>
+		<rdfs:label xml:lang="en">RiskTreatmentDecision</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+			A &quot;Risk Treatment Decision&quot; is the process of figuring out how to deal with a specific risk. NIST SP 800-30 defines it as the initial decision in the process of selecting and implementing measures to control or accept a Risk.
+			The Risk Treatment Decision is in reality at the one side influenced by the risk and on the other side on financial matters.
+			The question to be asked here should be: &quot;How much money, human resources and time is reasonable to be invested for a countermeasure reducing this risk?&quot;
+		</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Treatment Decision</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RSRdOQzuLlzGM88sdEdnwL"/>
+		<ontomo:view xml:lang="en">Cybersecurity</ontomo:view>
+		<rdfs:label xml:lang="en">RiskTreatment</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This step determines how to address identified Risks. Each Risk must have at least one Risk Treatment Decision to ensure full coverage. Decisions balance severity and likelihood, as not all countermeasures are necessary. Some Risks may be accepted if mitigation efforts outweigh their impact.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Treatment</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RDBC9k0LCihiMGjHaDoz4yR -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RDBC9k0LCihiMGjHaDoz4yR">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RSRdOQzuLlzGM88sdEdnwL"/>
+		<ontomo:view xml:lang="en">Cybersecurity</ontomo:view>
+		<rdfs:label xml:lang="en">RiskElucidation</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This step defines which system parts are in the context of interest of the analysis for cybersecurity. Additionally, they are rated regarding their Cybersecurity Properties which are exposed to Risks.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Elucidation</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RDuXy3V0v36vexJi1J14uLb -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RDuXy3V0v36vexJi1J14uLb">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RS3cLkYLSoxtKOFOFxM93T"/>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#featuredIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RDBC9k0LCihiMGjHaDoz4yR"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#introducedIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RDBC9k0LCihiMGjHaDoz4yR"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<ontomo:language xml:lang="en">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">CybersecurityProperty</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+			A &quot;Cybersecurity Property&quot; represents an abstracted feature or functionality, which needs to be protected by security measures to keep the related system part working as intended.
+			This element strongly relates to the &quot;cybersecurity property&quot; in ISO 21434, which is generally defined as an attribute that can be worth protecting. Its impact on systems health can be rated via the CIA triad (confidentiality, integrity, availability).
+		</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity Property</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RC00jUhXe1RATL71b1ezUnz"/>
+		<ontomo:languageAbstract xml:lang="en">Cybersecurity</ontomo:languageAbstract>
+		<rdfs:label xml:lang="en">Countermeasure</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+			A &quot;Countermeasure&quot; is a Risk Treatment Decision, which evolves the need to change something in the existing system.
+			This countermeasure (same meaning as a control in ISO 21434) is based on a Risk Treatment Decision to target and modify the impact of a system vulnerability in a prophylactic manner.
+		</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Countermeasure</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RRRjghXsD2wkElnJf74Fkd -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RRRjghXsD2wkElnJf74Fkd">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C"/>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#featuredIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#introducedIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<ontomo:language xml:lang="en">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">RiskElimination</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Risk Elimination&quot; is the strategic choice to circumvent exposure to a particular risk altogether. Organizations steer clear of activities or situations that could lead to the identified risk, aiming to prevent potential harm or adverse outcomes.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Elimination</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RS3cLkYLSoxtKOFOFxM93T -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RS3cLkYLSoxtKOFOFxM93T">
+		<rdfs:label xml:lang="en">CybersecurityEntity</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common parent element for all class-like things in the Cybersecurity language</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity Entity</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RSRdOQzuLlzGM88sdEdnwL -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RSRdOQzuLlzGM88sdEdnwL">
+		<rdfs:label xml:lang="en">CybersecurityStep</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common parent element for all views present in the Cybersecurity language. These views can be understood as steps of progressing in an ongoing cybersecurity analysis process.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybersecurity Step</skos:prefLabel>
+	</owl:Class>
+
+
+
+	<!-- http://dsse.at/ontologies/cybersecurity/RyoTgp51RNeL1U9DasGkvH -->
+
+	<owl:Class rdf:about="http://dsse.at/ontologies/cybersecurity/RyoTgp51RNeL1U9DasGkvH">
+		<rdfs:subClassOf rdf:resource="http://dsse.at/ontologies/cybersecurity/RG8X5n9kG0pVwfgmFiz92C"/>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#featuredIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<rdfs:subClassOf>
+			<owl:Restriction>
+				<owl:onProperty rdf:resource="http://dsse.at/ontologies/ontomo#introducedIn"/>
+				<owl:someValuesFrom rdf:resource="http://dsse.at/ontologies/cybersecurity/RCf6cl53NjGWzNltAXKdQoF"/>
+			</owl:Restriction>
+		</rdfs:subClassOf>
+		<ontomo:language xml:lang="en">Cybersecurity</ontomo:language>
+		<rdfs:label xml:lang="en">RiskMitigation</rdfs:label>
+		<skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Risk Mitigation&quot; focuses on reducing the likelihood or impact of a risk through proactive measures and controls. Organizations implement strategies to address vulnerabilities and minimize the overall risk exposure.</skos:definition>
+		<skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Risk Mitigation</skos:prefLabel>
+	</owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->

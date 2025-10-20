@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OntomoCli": {
+      "commandName": "Project",
+      "commandLineArgs": "--ontology-file \"./Resource/ontomo-demo-cybersecurity.owl\" --language-name \"Cybersecurity\""
+    }
+  }
+}
