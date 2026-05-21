@@ -13,3 +13,39 @@ The ontology is represented by a turtle file which was created using *Web Proté
 
 ## Generator Prototypes
 This folder includes the source code of the two generator prototypes (1) the MOF-based Profile Generator (MOPRO) and (2) the Ontology-to-MOF Transformer (ONTOMO).
+
+---
+## Required Tools
+The following tools are required or recommended to reproduce the transformations:
+
+- Sparx Systems Enterprise Architect
+- .NET / C# runtime
+- OWL/RDF-compatible ontology editor, e.g., WebProtégé or Protégé
+- SysML v2-compatible environment, e.g., JupyterLab with SysML v2 support
+
+## Executing the Transformation Process
+The transformations can be reproduced as follows:
+
+1. Use the provided ontology artifact as input for ONTOMO.
+2. Run ONTOMO to generate the corresponding MOF/UML metamodel structure.
+3. Manually complete information that cannot be represented in the ontology, especially detailed ASM and CSM information.
+4. Use the completed metamodel as input for MOPRO to generate the UML profile / MDG Technology implementation.
+5. Alternatively, use the completed metamodel as input for MOSys to generate a SysML v2 library.
+6. Compare the generated outputs with the provided reference artifacts.
+
+## Running the Prototypes
+
+The prototype executables are not included in this repository. Instead, the prototypes have to be built and executed in a .NET environment from the provided source code.
+
+Each prototype is implemented as a command-line application. The available parameters can be displayed with ```--help```. ONTOMO for instance can be executed with a command like this:
+
+```powershell
+PS> ./OntomoCli.exe --ontology-file myOntology.ttl --language-name "FRTI" --output-file ./generatedMetamodel.eapx
+```
+Be aware that you need to have Enterprise Architect installed and licensed on the machine where you run ontomo, as ontomo uses the Enterprise Architect automation interface to create and populate the metamodel.
+
+For MOSys for instance, those would be the available command line options: <img width="711" height="271" alt="image" src="https://github.com/user-attachments/assets/b4f06dc3-8ccc-455d-90e9-5de65460ee16" />
+
+MOSys then creates an output folder in the working directory and saves the generated file in this folder. 
+
+
